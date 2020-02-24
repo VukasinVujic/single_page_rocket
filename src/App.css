@@ -1,3 +1,4 @@
+
 .headerList {
   list-style-type: none;
   margin: 0;
@@ -25,10 +26,43 @@ li a {
 
 .header {
   width: 100%;
-  height: 80px;
   display: grid;
   justify-content: center;
   align-items: center;
-  background: #5ca7db;
+  background: #F0F8FF;
+  /* background-image: url("./images/rocket1.png"); */
 }
 
+ .rocketPicture img{
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 2%;
+  width: 150px;
+  height: 350px;
+  float: right;
+}
+
+.cloudsPicture img {
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 20%;
+  width: 150px;
+  height: 50px;
+  float: right;
+}
+
+.starsPicture img {
+  position: absolute;
+  margin-left: 38%;
+  margin-top: 0.00001%;
+  width: 200px;
+  height: 100px;
+  float: right;
+}
+
+.button {
+  padding: 2%;
+  border-radius: 20px;
+  background-color: #1a1aff;
+  color: #F0F8FF;
+}
