@@ -1,20 +1,34 @@
 import React from 'react';
 import logo from '../images/logo.png';
-import rocket1 from '../images/rocket1.png';
+// import rocket1 from '../images/rocket1.png';
 import rocket2 from '../images/rocket2.png';
 import rocket3 from '../images/rocket3.png';
 import rocket4 from '../images/rocket4.png';
 
-
-
 class Header extends React.Component {
 
     render(){
+        
+        document.addEventListener('DOMContentLoaded', function(){
+            window.addEventListener('scroll', myFunction);
+
+        let header = document.getElementById("myHeader")
+        let sticky = header.offsetTop;
+
+        function myFunction(){
+            if(window.pageXOffset > sticky){
+                header.classList.add("sticky");
+            }else {
+                header.classList.remove("sticky");
+            }
+        }
+
+        })
+
         return(
             <div>
                 <div className="header">
-                
-                <ul className="headerList">
+                <ul className="headerList" id="myHeader">
                     <li className="singleItemHeader"><a href=""><img src={logo} alt="some picture"/></a></li>
                     <li className="singleItemHeader"><a  href="#home">HOME</a></li>
                     <li className="singleItemHeader"><a  href="#news">WHAT WE DO</a></li>
@@ -37,10 +51,10 @@ class Header extends React.Component {
                     </div>
                     <br/><br/><br/><br/><br/>
                     <br/><br/><br/><br/>
-
-
-                
+                    <br/><br/><br/><br/>
+                    <br/><br/><br/><br/>
                 </div>
+                
                 
             </div>
 

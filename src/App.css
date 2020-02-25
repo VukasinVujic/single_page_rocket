@@ -1,18 +1,22 @@
+/* header */
+
 
 .headerList {
+  /* display: flex;
+  justify-content: center;
+  align-content: center; */
   list-style-type: none;
   margin: 0;
-  padding: 0;
-   /* overflow: hidden; */
+  padding: 0; 
 }
 
 .singleItemHeader {
   display: inline-block;
-  /* float: left; */
 }
 
 li {
-  display: inline-block
+  display: inline-block;
+  
 }
 
 li a {
@@ -22,6 +26,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 .header {
@@ -30,7 +35,7 @@ li a {
   justify-content: center;
   align-items: center;
   background: #F0F8FF;
-  /* background-image: url("./images/rocket1.png"); */
+
 }
 
  .rocketPicture img{
@@ -66,3 +71,13 @@ li a {
   background-color: #1a1aff;
   color: #F0F8FF;
 }
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;  
+}
+
+/* what we do */
+
