@@ -12,6 +12,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0; 
+  background:#F0F8FF;
 }
 
 .singleItemHeader {
@@ -35,16 +36,36 @@ li a {
 
 .header {
   width: 100%;
-  display: grid;
+  height: 350px;
+  display: inline-grid;
   justify-content: center;
   align-items: center;
   background: #F0F8FF;
+  z-index:5;
+    overflow:auto;
+}
 
+.cloudsPicture img {
+  position: absolute;
+  margin-left: 12%;
+  margin-top: 18%;
+  width: 150px;
+  height: 50px;
+  float: right;
+}
+
+.starsPicture img {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 0.00001%;
+  width: 200px;
+  height: 100px;
+  float: right;
 }
 
  .rocketPicture img{
   position: absolute;
-  margin-left: 40%;
+  margin-left: 10%;
   margin-top: 2%;
   width: 150px;
   height: 350px;
@@ -54,7 +75,7 @@ li a {
 }
 @keyframes slidein {
   0%{
-  margin-left: 50%;
+  margin-left: 5%;
   width: 150px;
   height: 350px;
 }
@@ -63,29 +84,13 @@ li a {
   height: 350px;
 }
 100% {
-  margin-left: 30%;
+  margin-left: 20%;
   width: 150px;
   height: 350px;
 }
 }
 
-.cloudsPicture img {
-  position: absolute;
-  margin-left: 40%;
-  margin-top: 20%;
-  width: 150px;
-  height: 50px;
-  float: right;
-}
 
-.starsPicture img {
-  position: absolute;
-  margin-left: 38%;
-  margin-top: 0.00001%;
-  width: 200px;
-  height: 100px;
-  float: right;
-}
 
 .button {
   padding: 2%;
@@ -101,9 +106,68 @@ li a {
   width: 100%;  
 }
 
+#myHeader {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  z-index:10;
+  background:inherit;
+}
+
+.headerContent {
+  position: absolute;
+  margin-left: 25%;
+}
+
+#emptySpace{
+  height: 200px;
+}
+
+/* ********** */
 /* what we do */
+/* *********** */
 
 .whatWoDoCenter{
   text-align: center;
+}
+
+.blob img{
+  width: 7rem;
+  height: 7rem;
+  display: block;
+}
+
+.blob {
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+.blob .faDownload{
+  position: absolute;
+  top: 50%;
+  left: 17.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.searchBlob {
+  filter: invert(48%) sepia(79%) saturate(8000%) hue-rotate(345deg) brightness(350%) contrast(119%);
+}
+
+.columnsBlob {
+  filter: invert(48%) sepia(79%) saturate(9000%) hue-rotate(240deg) brightness(250%) contrast(119%);
+}
+
+.shareBlob {
+  filter: invert(48%) sepia(79%) saturate(6000%) hue-rotate(120deg) brightness(550%) contrast(119%);
+}
+
+.tasksBlob{
+  filter: invert(48%) sepia(79%) saturate(8000%) hue-rotate(220deg) brightness(220%) contrast(119%);
 }
 
