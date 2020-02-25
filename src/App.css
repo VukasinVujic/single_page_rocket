@@ -45,6 +45,24 @@ li a {
   width: 150px;
   height: 350px;
   float: right;
+
+  animation: slidein 3s ease-in-out alternate infinite;
+}
+@keyframes slidein {
+  0%{
+  margin-left: 50%;
+  width: 150px;
+  height: 350px;
+}
+50%{
+  width: 150px;
+  height: 350px;
+}
+100% {
+  margin-left: 30%;
+  width: 150px;
+  height: 350px;
+}
 }
 
 .cloudsPicture img {
