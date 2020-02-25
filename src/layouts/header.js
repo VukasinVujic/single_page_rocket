@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../images/logo.png';
-// import rocket1 from '../images/rocket1.png';
 import rocket2 from '../images/rocket2.png';
 import rocket3 from '../images/rocket3.png';
 import rocket4 from '../images/rocket4.png';
@@ -16,7 +15,7 @@ class Header extends React.Component {
         let sticky = header.offsetTop;
 
         function myFunction(){
-            if(window.pageXOffset > sticky){
+            if(window.pageXOffset > sticky){ // add "=" for sticky to work
                 header.classList.add("sticky");
             }else {
                 header.classList.remove("sticky");
@@ -31,7 +30,7 @@ class Header extends React.Component {
                 <ul className="headerList" id="myHeader">
                     <li className="singleItemHeader"><a href=""><img src={logo} alt="some picture"/></a></li>
                     <li className="singleItemHeader"><a  href="#home">HOME</a></li>
-                    <li className="singleItemHeader"><a  href="#news">WHAT WE DO</a></li>
+                    <li className="singleItemHeader"><a  href="#whatWeDo">WHAT WE DO</a></li>
                     <li className="singleItemHeader"><a  href="#contact">CUSTOMOR STORIES</a></li>
                     <li className="singleItemHeader"><a  href="#about">PRICING</a></li>
                     <li className="singleItemHeader"><a  href="#about">CONTACT US</a></li>
@@ -51,10 +50,12 @@ class Header extends React.Component {
                     </div>
                     <br/><br/><br/><br/><br/>
                     <br/><br/><br/><br/>
-                    <br/><br/><br/><br/>
-                    <br/><br/><br/><br/>
                 </div>
-                
+                {/* <div id="whatWeDo">
+                <h1 >what we do </h1>
+
+                </div>
+                 */}
                 
             </div>
 

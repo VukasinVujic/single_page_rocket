@@ -1,10 +1,14 @@
+
 /* header */
 
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Open Sans' cursive;
+} 
 
 .headerList {
-  /* display: flex;
-  justify-content: center;
-  align-content: center; */
   list-style-type: none;
   margin: 0;
   padding: 0; 
@@ -98,4 +102,8 @@ li a {
 }
 
 /* what we do */
+
+.whatWoDoCenter{
+  text-align: center;
+}
 
