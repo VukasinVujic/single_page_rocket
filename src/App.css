@@ -127,10 +127,18 @@ li a {
 /* what we do */
 /* *********** */
 
+
+.whatWeDoBackground{
+  background-image: url('./images/rocket1.png')
+}
+
+
+/* Just for text */
 .whatWoDoCenter{
   text-align: center;
 }
 
+/* For blob */
 .blob img{
   width: 7rem;
   height: 7rem;
@@ -146,15 +154,28 @@ li a {
   position: relative;
 }
 
-.blob .faDownload{
+/* for location of Awsome Icons */
+.blob .faIcon{
   position: absolute;
   top: 50%;
-  left: 17.5%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+.blob .faSearch {
+  left: 17%;
+}
+.blob .faColumns {
+  left: 39%;
+}
+.blob .faShareAlt {
+  left: 61%;
+}
+.blob .faTasks {
+  left: 83%;
+}
 
+/* for the color or blobs */
 .searchBlob {
   filter: invert(48%) sepia(79%) saturate(8000%) hue-rotate(345deg) brightness(350%) contrast(119%);
 }
@@ -171,3 +192,9 @@ li a {
   filter: invert(48%) sepia(79%) saturate(8000%) hue-rotate(220deg) brightness(220%) contrast(119%);
 }
 
+.underBlob {
+  text-align: center;
+}
+.underBlob text{
+  margin-right: 20px;
+}

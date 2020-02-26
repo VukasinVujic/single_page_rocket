@@ -13,32 +13,44 @@ import { faSearch, faColumns, faShareAlt, faTasks } from '@fortawesome/free-soli
 class WhatWeDo extends React.Component{
     render(){
         return(
-            <div>
+            <div className="whatWeDoBackground">
                 <div className="whatWoDoCenter">
                 <h3>WHAT WE DO</h3>       
-                <p>The full service we are offering is specifically</p>
-                <p>designed to meet your business needs</p>
+                <p>The full service we are offering is specifically <br/> designed to meet your business needs</p>
+                <br/><br/>
                 </div>
                 <div className="blob">
-                    <img src={blob} alt="" className="searchBlob"/><FontAwesomeIcon icon={faSearch} color="orange" className="faDownload" />
+                    <img src={blob} alt="" className="searchBlob"/>
+                    <FontAwesomeIcon icon={faSearch} color="red" className="faIcon faSearch"/>
+                    
                     <img src={blob} alt="" className="columnsBlob" />
+                    <FontAwesomeIcon icon={faColumns} color="blue" className="faIcon faColumns"/>
+                    
                     <img src={blob} alt="" className="shareBlob" />
+                    <FontAwesomeIcon icon={faShareAlt} color="green" className="faIcon faShareAlt"/>
+
                     <img src={blob} alt="" className="tasksBlob"/>
+                    <FontAwesomeIcon icon={faTasks} color="darkcyan" className="faIcon faTasks "/>
+               
                 </div>
-                {/* <h1>dfsdfsdfds</h1> */}
-                
-                <FontAwesomeIcon icon={faColumns} />
-                <FontAwesomeIcon icon={faShareAlt} />
-                <FontAwesomeIcon icon={faTasks} />
-                
+                <div className="blob underBlob">
+                    <h3>SEO Services</h3>
+                    <h3>Web Design</h3>
+                    <h3>Social Engagment</h3>
+                    <h3>Content Marketing</h3>
+
+                    <p>Some text, some text, some text,<br/>some text, some text, some text,<br/>some text, some text, some text</p>               
+                    <p>Some text, some text, some text,<br/>some text, some text, some text,<br/>some text, some text, some text</p>               
+                    <p>Some text, some text, some text,<br/>some text, some text, some text,<br/>some text, some text, some text</p>               
+                    <p>Some text, some text, some text,<br/>some text, some text, some text,<br/>some text, some text, some text</p>               
+
+                </div>
                 <br/>
                 {/* <FontAwesomeIcon icon={faTwitter} />
                 <FontAwesomeIcon icon={faFacebookF} />
                 <FontAwesomeIcon icon={faInstagram} />
                 <FontAwesomeIcon icon={faYoutube} />
                 <FontAwesomeIcon icon={faVimeoV} /> */}
-
-
                 {/* <FontAwesomeIcon icon={faHeart} /> */}
                 {/* <FontAwesomeIcon icon={faFolderOpen} /> */}
                 {/* <FontAwesomeIcon icon={faLightbulb} /> */}
