@@ -21,18 +21,15 @@ class Header extends React.Component {
                 </ul>
             </div>
 
-
             <div>
 
-                <div className="header">
+                <div className="headerRocket">
                 
                     <div className="headerContent" >
                     
                     <div>
-                    <h3>Grow your Buisness with</h3>
-                    <h3>Our Marketing Solutions</h3>
-                    <p>We help our clients to increase their webiste</p>
-                    <p>trafic, ranking and visibility in search results</p>
+                    <h3>Grow your Buisness with <br/> Our Marketing Solutions</h3>
+                    <p>We help our clients to increase their webiste <br/>trafic, ranking and visibility in search results</p>
                     <button className="button">try it for free</button>
                     </div>
                     </div>
@@ -43,13 +40,10 @@ class Header extends React.Component {
                     <span className="starsPicture"><img src={rocket3} alt=""/></span>
                 </div>
 
-                    <br/><br/><br/><br/><br/>
-                    <br/><br/><br/><br/>
-
+                <div id="emptySpace"></div>
                 </div>
                 {/* <div id="whatWeDo">
                 <h1 >what we do </h1>
-
                 </div>
                  */}
                 

@@ -1,6 +1,7 @@
 
 /* header */
 
+/* for making pushing links in header move the part of page you want */
 html {
   scroll-behavior: smooth;
 }
@@ -34,7 +35,7 @@ li a {
   
 }
 
-.header {
+.headerRocket {
   width: 100%;
   height: 350px;
   display: inline-grid;
@@ -42,7 +43,7 @@ li a {
   align-items: center;
   background: #F0F8FF;
   z-index:5;
-    overflow:auto;
+  overflow:auto;
 }
 
 .cloudsPicture img {
@@ -89,16 +90,12 @@ li a {
   height: 350px;
 }
 }
-
-
-
 .button {
   padding: 2%;
   border-radius: 20px;
   background-color: #1a1aff;
   color: #F0F8FF;
 }
-
 
 .sticky {
   position: fixed;
@@ -110,7 +107,7 @@ li a {
   position: sticky;
   top: 0;
   text-align: center;
-  z-index:10;
+  z-index:1000000;
   background:inherit;
 }
 
@@ -127,7 +124,12 @@ li a {
 /* what we do */
 /* *********** */
 
+#whatWeDo{
+  z-index:5;
+  overflow:auto;
+}
 
+/* for adding backgroun image */
 .whatWeDoBackground{
   background-image: url('./images/rocket1.png')
 }
@@ -197,4 +199,28 @@ li a {
 }
 .underBlob text{
   margin-right: 20px;
+}
+/* ************** */
+/* WHY CHOOSE US */
+/* ************** */
+/* .concept8{
+  position: absolute;
+  float: left;
+  margin-left: 15%;
+}
+
+.concept8Text{
+  position: absolute;
+  float: right;
+  margin-right: 15%;
+} */
+
+.concept8{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.concept8 div{
+  padding-left: 20px;
 }

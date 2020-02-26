@@ -13,7 +13,7 @@ import { faSearch, faColumns, faShareAlt, faTasks } from '@fortawesome/free-soli
 class WhatWeDo extends React.Component{
     render(){
         return(
-            <div className="whatWeDoBackground">
+            <div className="whatWeDoBackground" id="whatWeDo">
                 <div className="whatWoDoCenter">
                 <h3>WHAT WE DO</h3>       
                 <p>The full service we are offering is specifically <br/> designed to meet your business needs</p>
@@ -45,7 +45,8 @@ class WhatWeDo extends React.Component{
                     <p>Some text, some text, some text,<br/>some text, some text, some text,<br/>some text, some text, some text</p>               
 
                 </div>
-                <br/>
+                <div id="emptySpace"></div>
+                
                 {/* <FontAwesomeIcon icon={faTwitter} />
                 <FontAwesomeIcon icon={faFacebookF} />
                 <FontAwesomeIcon icon={faInstagram} />
@@ -54,7 +55,6 @@ class WhatWeDo extends React.Component{
                 {/* <FontAwesomeIcon icon={faHeart} /> */}
                 {/* <FontAwesomeIcon icon={faFolderOpen} /> */}
                 {/* <FontAwesomeIcon icon={faLightbulb} /> */}
-
             </div>
         )
     }
