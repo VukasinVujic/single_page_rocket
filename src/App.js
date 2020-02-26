@@ -5,6 +5,7 @@ import Header from './layouts/header';
 import WhatWeDo from './mainPart/whatWeDo';
 import './index.css';
 import WhyChooseUs from './mainPart/whyChooseUs';
+import OurProcess from './mainPart/ourProcess';
 
 class App extends React.Component {
 
@@ -15,6 +16,7 @@ class App extends React.Component {
       <Header/>
       <WhatWeDo/> 
       <WhyChooseUs/>
+      <OurProcess/>
       </div>
     )
   }

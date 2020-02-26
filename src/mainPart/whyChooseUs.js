@@ -14,7 +14,7 @@ class WhyChooseUs extends React.Component {
                     </div>
                     <div>
                     <h4>WHY CHOOSE US?</h4>
-                    <h2>Why is Search Engine Optimization <br/> important for you business </h2>
+                    <h3>Why is Search Engine Optimization <br/> important for you business </h3>
                     <p>Some text,Some text,Some text,<br/>Some text,Some text,Some text,<br/>Some text,Some text,Some text,<br/>Some text,Some text,Some text,</p>
                     <ul>
                         <div><FontAwesomeIcon icon={faCheck} color="blue" /> <li> Some text</li></div>

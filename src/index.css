@@ -17,3 +17,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#myHeader {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  z-index:10;
+  background:#F0F8FF;
+}
+
+#headerList {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  background:#F0F8FF;
+  padding-bottom: 1em;
+}

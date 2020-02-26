@@ -3,7 +3,6 @@ import blob from '../images/blob1.svg';
 // import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faColumns, faShareAlt, faTasks } from '@fortawesome/free-solid-svg-icons';
-// faLightbulb, faFolderOpen, faHeart
 
 // import { faTwitter, faFacebookF, faInstagram, faYoutube, faVimeo, faVimeoV } from '@fortawesome/free-brands-svg-icons';
 
@@ -52,9 +51,7 @@ class WhatWeDo extends React.Component{
                 <FontAwesomeIcon icon={faInstagram} />
                 <FontAwesomeIcon icon={faYoutube} />
                 <FontAwesomeIcon icon={faVimeoV} /> */}
-                {/* <FontAwesomeIcon icon={faHeart} /> */}
-                {/* <FontAwesomeIcon icon={faFolderOpen} /> */}
-                {/* <FontAwesomeIcon icon={faLightbulb} /> */}
+                
             </div>
         )
     }

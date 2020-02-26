@@ -9,13 +9,6 @@ body {
   font-family: 'Open Sans' cursive;
 } 
 
-.headerList {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; 
-  background:#F0F8FF;
-}
-
 .singleItemHeader {
   display: inline-block;
 }
@@ -47,6 +40,7 @@ li a {
 }
 
 .cloudsPicture img {
+  width: 100%;
   position: absolute;
   margin-left: 12%;
   margin-top: 18%;
@@ -56,6 +50,7 @@ li a {
 }
 
 .starsPicture img {
+  width: 100%;
   position: absolute;
   margin-left: 10%;
   margin-top: 0.00001%;
@@ -65,6 +60,7 @@ li a {
 }
 
  .rocketPicture img{
+  width: 100%;
   position: absolute;
   margin-left: 10%;
   margin-top: 2%;
@@ -101,14 +97,6 @@ li a {
   position: fixed;
   top: 0;
   width: 100%;  
-}
-
-#myHeader {
-  position: sticky;
-  top: 0;
-  text-align: center;
-  z-index:1000000;
-  background:inherit;
 }
 
 .headerContent {
@@ -203,17 +191,6 @@ li a {
 /* ************** */
 /* WHY CHOOSE US */
 /* ************** */
-/* .concept8{
-  position: absolute;
-  float: left;
-  margin-left: 15%;
-}
-
-.concept8Text{
-  position: absolute;
-  float: right;
-  margin-right: 15%;
-} */
 
 .concept8{
   display: flex;
@@ -223,4 +200,50 @@ li a {
 }
 .concept8 div{
   padding-left: 20px;
+}
+
+/* ************** */
+/* OUR PROCESS */
+/* ************** */
+
+.blob2 img {
+  width: 7rem;
+  height: 7rem; 
+}
+
+.blob2{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-template-rows:auto auto auto;
+}
+
+.blob2text {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.concept1 img{
+  float: right;
+  width: 70%;
+}
+
+.ourProcess {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconWrapper {
+  position: relative;
+}
+
+.faIcon2{
+  position: absolute;
+  left: 45%;
+  top: 45%
+}
+
+.shareHeart {
+  filter: invert(48%) sepia(79%) saturate(5000%) hue-rotate(20deg) brightness(350%) contrast(119%);
 }

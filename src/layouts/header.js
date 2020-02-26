@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../images/logo.png';
 import rocket2 from '../images/rocket2.png';
 import rocket3 from '../images/rocket3.png';
 import rocket4 from '../images/rocket4.png';
@@ -9,18 +8,8 @@ class Header extends React.Component {
     render(){
         
         return(
-            <div>
-            <div  id="myHeader">
-                <ul className="headerList">
-                    <li className="singleItemHeader"><a href=""><img src={logo} alt="some picture"/></a></li>
-                    <li className="singleItemHeader"><a  href="#home">HOME</a></li>
-                    <li className="singleItemHeader"><a  href="#whatWeDo">WHAT WE DO</a></li>
-                    <li className="singleItemHeader"><a  href="#contact">CUSTOMOR STORIES</a></li>
-                    <li className="singleItemHeader"><a  href="#about">PRICING</a></li>
-                    <li className="singleItemHeader"><a  href="#about">CONTACT US</a></li>
-                </ul>
-            </div>
 
+            
             <div>
 
                 <div className="headerRocket">
@@ -47,7 +36,6 @@ class Header extends React.Component {
                 </div>
                  */}
                 
-            </div>
             </div>
 
         )
