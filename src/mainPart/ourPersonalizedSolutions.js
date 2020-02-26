@@ -1,20 +1,20 @@
-import React from "react";
-import concept8 from '../images/concept8.png';
+import React from 'react';
+import concept3 from '../images/concept3.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCheck } from '@fortawesome/free-solid-svg-icons';
 
 
-class WhyChooseUs extends React.Component {
+class OurPersonalizedSolutions extends React.Component {
     render(){
         return(
             <div>
                 <div className="concept8">
                     <div>
-                        <img src={concept8} alt=""/>
+                        <img src={concept3} alt=""/>
                     </div>
                     <div>
-                    <h4>WHY CHOOSE US?</h4>
-                    <h3>Why is Search Engine Optimization <br/> important for you business </h3>
+                    <h4>OUR PERSONALIZED SOLUTIONS</h4>
+                    <h3>Just sit and relax while we take care<br/> of your buisniess needs </h3>
                     <p>Some text,Some text,Some text,<br/>Some text,Some text,Some text,<br/>Some text,Some text,Some text,<br/>Some text,Some text,Some text,</p>
                     <ul>
                         <div><FontAwesomeIcon icon={faCheck} color="blue" /> <li> Some text</li></div>
@@ -25,10 +25,9 @@ class WhyChooseUs extends React.Component {
                     </div>
             </div>
             <div id="emptySpace"></div>
-
             </div>
         )
     }
 }
 
-export default WhyChooseUs;
+export default OurPersonalizedSolutions

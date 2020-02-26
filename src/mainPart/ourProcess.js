@@ -48,9 +48,8 @@ class OurProcess extends React.Component {
                     <img src={concept1} alt=""/>
                 </div>            
             </div>
-            {/* <FontAwesomeIcon icon={faHeart} /> */}
-                {/* <FontAwesomeIcon icon={faFolderOpen} /> */}
-                {/* <FontAwesomeIcon icon={faLightbulb} /> */}
+            <div id="emptySpace"></div>
+
             </div>
         )
     }
