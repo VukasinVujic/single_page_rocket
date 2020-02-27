@@ -3,6 +3,7 @@ import blob from '../images/blob1.svg';
 import concept1 from '../images/concept1.png';
 import { faLightbulb, faFolderOpen, faHeart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import NumberCircle from '../helpParts/numberCircle';
 
 class OurProcess extends React.Component {
     render(){
@@ -15,6 +16,7 @@ class OurProcess extends React.Component {
 
                 <div className="blob2">
                     <div className="iconWrapper">
+                    <NumberCircle text="1" className="lightBulbNumber"/>
                     <img src={blob} alt="" className="columnsBlob"/>
                     <FontAwesomeIcon icon={faLightbulb} color='blue' className="faIcon faIcon2"></FontAwesomeIcon>
                     </div>
@@ -25,6 +27,7 @@ class OurProcess extends React.Component {
                     </div>
 
                     <div className="iconWrapper">
+                    <NumberCircle text="2"  className="folderNumber"/>
                     <img src={blob} alt="" className="shareBlob"/>
                     <FontAwesomeIcon icon={faFolderOpen} color='green' className="faIcon faIcon2 "></FontAwesomeIcon>
                     </div>
@@ -35,6 +38,7 @@ class OurProcess extends React.Component {
                     </div>
                     
                     <div className="iconWrapper">
+                    <NumberCircle text="3"  className="shareHeartNumber"/>
                     <img src={blob} alt="" className="shareHeart"/>
                     <FontAwesomeIcon icon={faHeart} color='orange' className="faIcon faIcon2"></FontAwesomeIcon>
                     </div>
