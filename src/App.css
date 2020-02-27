@@ -248,3 +248,37 @@ li a {
   filter: invert(48%) sepia(79%) saturate(5000%) hue-rotate(20deg) brightness(350%) contrast(119%);
 }
 
+/* ************** */
+/* OUR PERSONALIZED SOLUTIONS */
+/* ************** */
+
+
+/* ************** */
+/* CUSTOMER STORIES */
+/* ************** */
+
+.carosel{
+  width: 100%;
+  text-align: center;
+}
+
+/* #fillInBlob{
+  background-image: url('./images/customer1.jpg');
+  background-size: cover;
+  border-radius:50% 50% 50% 50%;
+} */
+
+/* .user{
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+} */
+
+/* .one {
+  background-image: url('./images/customer1.jpg');
+} */
+
+
+.makeInlineDive {
+  display: inline-block;
+}

@@ -3,7 +3,6 @@ import concept3 from '../images/concept3.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCheck } from '@fortawesome/free-solid-svg-icons';
 
-
 class OurPersonalizedSolutions extends React.Component {
     render(){
         return(
@@ -25,6 +24,7 @@ class OurPersonalizedSolutions extends React.Component {
                     </div>
             </div>
             <div id="emptySpace"></div>
+
             </div>
         )
     }

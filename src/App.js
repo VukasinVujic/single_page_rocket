@@ -7,6 +7,7 @@ import './index.css';
 import WhyChooseUs from './mainPart/whyChooseUs';
 import OurProcess from './mainPart/ourProcess';
 import OurPersonalizedSolutions from './mainPart/ourPersonalizedSolutions';
+import CustomerStories from './mainPart/customerStories';
 
 class App extends React.Component {
 
@@ -18,6 +19,7 @@ class App extends React.Component {
       <WhyChooseUs/>
       <OurProcess/>
       <OurPersonalizedSolutions/>
+      <CustomerStories/>
       </div>
     )
   }
