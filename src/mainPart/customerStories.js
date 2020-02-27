@@ -14,13 +14,13 @@ class CustomerStories extends React.Component {
             galleryItems: [customer1, customer2, customer3,customer4,customer5,customer6].map((i) =>
                 <div>
                     <p>some text some text some text <br/> some text some text some text <br/> some text some text some text</p>
-                    <img key={i} src={i} /> 
-                    <div className="makeInlineDive" style={{ display: i === customer1 ? 'block' : 'none'}}><span>Conor Gibson <br/> akakaka </span></div>
-                    <div className="makeInlineDive" style={{ display: i === customer2 ? 'block' : 'none'}}><span>Coriss Ambady <br/> akakaka </span></div>
-                    <div className="makeInlineDive" style={{ display: i === customer3 ? 'block' : 'none'}}><span>Barclay Widerski <br/> akakaka </span></div>
-                    <div className="makeInlineDive" style={{ display: i === customer4 ? 'block' : 'none'}}><span>Potencijalni Pedofil <br/> akakaka </span></div>
-                    <div className="makeInlineDive" style={{ display: i === customer5 ? 'block' : 'none'}}><span>Lepa Brena <br/> akakaka </span></div>
-                    <div className="makeInlineDive" style={{ display: i === customer6 ? 'block' : 'none'}}><span>Lepojka Belic <br/> akakaka </span></div>
+                    <img key={i} src={i}/> 
+                    <div className="makeInlineDive" style={{ display: i === customer1 ? 'block' : 'none'}}><span>Conor Gibson <br/> Financial Analyst </span></div>
+                    <div className="makeInlineDive" style={{ display: i === customer2 ? 'block' : 'none'}}><span>Coriss Ambady <br/> Marketing Specialist </span></div>
+                    <div className="makeInlineDive" style={{ display: i === customer3 ? 'block' : 'none'}}><span>Barclay Widerski <br/> Sales Manager </span></div>
+                    <div className="makeInlineDive" style={{ display: i === customer4 ? 'block' : 'none'}}><span>Potencijalni Manijak <br/> School teacher </span></div>
+                    <div className="makeInlineDive" style={{ display: i === customer5 ? 'block' : 'none'}}><span>Lepa Brena <br/> Gold Digger </span></div>
+                    <div className="makeInlineDive" style={{ display: i === customer6 ? 'block' : 'none'}}><span>Lepojka Belic <br/> Counterintelligence Service Officer </span></div>
                 </div>    
       ),
         }   
@@ -30,7 +30,7 @@ class CustomerStories extends React.Component {
         }
         
         onSlideChange(e) {
-            console.debug('Item`s position during a change: ', e.item)
+          console.debug('Item`s position during a change: ', e.item)
           console.debug('Slide`s position during a change: ', e.slide)
         }
        
@@ -41,7 +41,7 @@ class CustomerStories extends React.Component {
        
         render() {
           return (
-              <div >
+              <div className="colorBackground" id="customStories" >
                 <div className="carosel">
                 <h5>CUSTOMOR STORIES</h5>
                 <h4>Custom satisfacation is our major goal. <br/> See what our customers are saying about us </h4>
@@ -65,10 +65,6 @@ class CustomerStories extends React.Component {
           )
         }
       }
-
-
-
-
 
 
 export default CustomerStories;

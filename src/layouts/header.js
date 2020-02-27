@@ -6,12 +6,8 @@ import rocket4 from '../images/rocket4.png';
 class Header extends React.Component {
 
     render(){
-        
         return(
-
-            
             <div>
-
                 <div className="headerRocket">
                 
                     <div className="headerContent" >
@@ -24,9 +20,9 @@ class Header extends React.Component {
                     </div>
 
                 <div className="wrapper">
-                    <span className="rocketPicture"><img src={rocket2} alt=""/></span>
                     <span className="cloudsPicture"><img src={rocket4} alt=""/></span>
                     <span className="starsPicture"><img src={rocket3} alt=""/></span>
+                    <span className="rocketPicture"><img src={rocket2} alt=""/></span>
                 </div>
 
                 <div id="emptySpace"></div>

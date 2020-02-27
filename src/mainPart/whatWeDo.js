@@ -46,6 +46,7 @@ class WhatWeDo extends React.Component{
                 </div>
                 <div id="emptySpace"></div>
                 
+                
                 {/* <FontAwesomeIcon icon={faTwitter} />
                 <FontAwesomeIcon icon={faFacebookF} />
                 <FontAwesomeIcon icon={faInstagram} />

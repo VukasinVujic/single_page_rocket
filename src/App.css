@@ -262,6 +262,10 @@ li a {
   text-align: center;
 }
 
+.colorBackground{
+  background-color: #F8F8FF;
+}
+
 /* #fillInBlob{
   background-image: url('./images/customer1.jpg');
   background-size: cover;
@@ -278,7 +282,62 @@ li a {
   background-image: url('./images/customer1.jpg');
 } */
 
-
 .makeInlineDive {
   display: inline-block;
+}
+
+/* ************** */
+/* OUR PRICING */
+/* ************** */
+.toCenterParent{
+  text-align: center;
+}
+
+.text-OurPricing{
+  position: relative;
+}
+
+.positioning-ourPricing{
+  margin: auto;
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  /* grid-column-gap: 1em; */
+}
+
+.square-container{
+  position: relative;
+}
+
+.square{
+  display: inline-block;
+  background-color: #eeeec3;
+  width: 30%;
+  height: 100%;
+  margin-left: 1em;
+}
+.square:hover{
+  width: 250px;
+  
+  height: 452px;
+  
+  margin-top: -26px;
+  
+  border: 6px solid #52B5D5;
+ 
+  -moz-box-shadow:0px 0px 50px 0px #000000;
+  -webkit-box-shadow:0px 0px 50px 0px #000000;
+  box-shadow:0px 0px 50px 0px #000000;
+  
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+  z-index: 10;
+}
+
+.bigNumber{
+  font-size: 3em;
 }
