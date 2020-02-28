@@ -2,11 +2,16 @@
 /* header */
 
 /* for making pushing links in header move the part of page you want */
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
 body {
   font-family: 'Open Sans' cursive;
+  /* font-size:2vw; */
 } 
 
 .singleItemHeader {
@@ -108,6 +113,29 @@ li a {
   height: 200px;
 }
 
+
+@media only screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; 
+  }
+}
+
+/* .left {
+  padding:20px;
+  float:left;
+  width: 20%;
+}
+
+.main {
+  padding: 20px;
+  float:left;
+  width: 20%;
+} */
+
+
+
+
+
 /* ********** */
 /* what we do */
 /* *********** */
@@ -130,6 +158,7 @@ li a {
 
 /* For blob */
 .blob img{
+  max-width: 100%;;
   width: 7rem;
   height: 7rem;
   display: block;
@@ -207,6 +236,7 @@ li a {
 /* ************** */
 
 .blob2 img {
+  max-width: 100%;;
   width: 7rem;
   height: 7rem; 
 }
@@ -401,3 +431,5 @@ li a {
 .makeSpaceIcons > * {
     margin-left: 1.5em;
 }
+
+
