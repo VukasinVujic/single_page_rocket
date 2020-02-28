@@ -22,7 +22,7 @@ code {
   position: sticky;
   top: 0;
   text-align: center;
-  z-index:10;
+  z-index:100;
   background:#F0F8FF;
 }
 
@@ -32,4 +32,44 @@ code {
   margin-bottom: 0;
   background:#F0F8FF;
   padding-bottom: 1em;
+}
+
+#page-nav{
+  width: 100%;
+  background: #F0F8FF;
+}
+
+#page-nav label, #hamburger{
+  display: none;
+}
+
+#page-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 768px){
+    #page-nav label {
+      display: inline-block;
+      color:  #F0F8FF;
+      background-color: blue;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+
+    #page-nav ul li {
+      display: block;
+    }
+
+    #page-nav ul {
+      display: none;
+    }
+
+    #page-nav input:checked ~ ul {
+      display: block
+      ;
+    }
+
 }

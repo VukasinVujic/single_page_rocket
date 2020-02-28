@@ -14,18 +14,26 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
     <title>React App</title>
 
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div  id="myHeader">
-      <ul className="headerList" id="headerList">
+
+      <nav id="page-nav">
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger">
+        
+        <ul id="headerList">
           <li className="singleItemHeader"><a href=""><img src="./logo.png" alt="some picture"/></a></li>
           <li className="singleItemHeader"><a  href="#root">HOME</a></li>
           <li className="singleItemHeader"><a  href="#whatWeDo">WHAT WE DO</a></li>
           <li className="singleItemHeader"><a  href="#customStories">CUSTOMOR STORIES</a></li>
           <li className="singleItemHeader"><a  href="#ourPricing">PRICING</a></li>
           <li className="singleItemHeader"><a  href="#footer">CONTACT US</a></li>
-      </ul>
+        </ul>
+      </nav>
+
     </div>
     <div id="root">
         
