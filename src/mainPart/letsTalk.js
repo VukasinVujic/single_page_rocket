@@ -5,7 +5,7 @@ import concept12 from '../images/concept12.png';
 class LetsTalk extends React.Component {
     render(){
         return(
-            <div>
+            <div className="colorBackground">
                 <div className="concept8">
                     <div>
                         <img src={concept12} alt=""/>

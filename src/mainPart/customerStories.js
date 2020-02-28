@@ -1,7 +1,6 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-// import blob from '../images/blob1.svg';
 import customer1 from '../images/customer1.jpg';
 import customer2 from '../images/customer2.jpg';
 import customer3 from '../images/customer3.jpg';
@@ -15,7 +14,6 @@ class CustomerStories extends React.Component {
                 <div>
                     <p>some text some text some text <br/> some text some text some text <br/> some text some text some text</p>
                     <img key={i} src={i} className="shape"/>
-                    {/* 69% 63% 86% 58%; */} 
                     <div className="makeInlineDive" style={{ display: i === customer1 ? 'block' : 'none'}}><span>Conor Gibson <br/> Financial Analyst </span></div>
                     <div className="makeInlineDive" style={{ display: i === customer2 ? 'block' : 'none'}}><span>Coriss Ambady <br/> Marketing Specialist </span></div>
                     <div className="makeInlineDive" style={{ display: i === customer3 ? 'block' : 'none'}}><span>Barclay Widerski <br/> Sales Manager </span></div>
@@ -62,6 +60,7 @@ class CustomerStories extends React.Component {
                       onSlideChanged={this.onSlideChanged}
                       />
                 </div>
+                <div id="emptySpace"></div>
             </div>        
           )
         }

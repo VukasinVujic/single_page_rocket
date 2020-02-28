@@ -89,7 +89,7 @@ li a {
 .button {
   padding: 2%;
   border-radius: 20px;
-  background-color: #1a1aff;
+  background-color: #1a76ff;
   color: #F0F8FF;
 }
 
@@ -362,9 +362,25 @@ li a {
 /* LET'S TALK */
 /* ************** */
 
+/* ************** */
+/* ANALYZE NOW */
+/* ************** */
 
+.input {
+  width: 30%;
+  border-radius: 20px;
+  padding: 2%;
+}
 
+.backgroundColor{
+  background: #F0F8FF;
 
+}
+
+/* padding: 2%;
+  border-radius: 20px;
+  background-color: #1a76ff;
+  color: #F0F8FF; */
 
 
 
