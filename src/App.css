@@ -295,21 +295,9 @@ li a {
   background-color: #F8F8FF;
 }
 
-/* #fillInBlob{
-  background-image: url('./images/customer1.jpg');
-  background-size: cover;
-  border-radius:50% 50% 50% 50%;
-} */
-
-/* .user{
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-} */
-
-/* .one {
-  background-image: url('./images/customer1.jpg');
-} */
+.shape{
+  border-radius: 69% 63% 86% 58%;
+}
 
 .makeInlineDive {
   display: inline-block;
@@ -347,7 +335,7 @@ li a {
 .square:hover{
   width: 250px;
   
-  height: 452px;
+  height: 300px;
   
   margin-top: -26px;
   
@@ -369,4 +357,30 @@ li a {
 
 .bigNumber{
   font-size: 3em;
+}
+
+
+/* ************** */
+/* FOOTER */
+/* ************** */
+
+.card{
+  font-size: 0.8em;
+  border: none;
+}
+
+.picture{
+  width: 100%;
+}
+.list {
+  display: inline;
+}
+
+.list > li{
+  display: list-item;
+  list-style: initial;
+}
+
+.makeSpaceIcons > * {
+    margin-left: 1.5em;
 }

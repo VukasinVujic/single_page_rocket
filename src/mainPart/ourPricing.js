@@ -25,6 +25,7 @@ class OurPricing extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div id="emptySpace"></div>
             </div>
         )
     }

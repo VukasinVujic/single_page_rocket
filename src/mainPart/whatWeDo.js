@@ -1,13 +1,7 @@
 import React from 'react';
 import blob from '../images/blob1.svg';
-// import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faColumns, faShareAlt, faTasks } from '@fortawesome/free-solid-svg-icons';
-
-// import { faTwitter, faFacebookF, faInstagram, faYoutube, faVimeo, faVimeoV } from '@fortawesome/free-brands-svg-icons';
-
-// faStroopwafel
-// library.add(faStroopwafel)
 
 class WhatWeDo extends React.Component{
     render(){
@@ -45,14 +39,6 @@ class WhatWeDo extends React.Component{
 
                 </div>
                 <div id="emptySpace"></div>
-                
-                
-                {/* <FontAwesomeIcon icon={faTwitter} />
-                <FontAwesomeIcon icon={faFacebookF} />
-                <FontAwesomeIcon icon={faInstagram} />
-                <FontAwesomeIcon icon={faYoutube} />
-                <FontAwesomeIcon icon={faVimeoV} /> */}
-                
             </div>
         )
     }
