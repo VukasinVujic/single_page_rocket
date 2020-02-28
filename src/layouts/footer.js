@@ -21,7 +21,7 @@ function Card(props) {
 class Footer extends React.Component{
         render(){
             return(
-            <div>
+            <div id="footer">
                 <Container>
                     <Row> 
                         <Col>

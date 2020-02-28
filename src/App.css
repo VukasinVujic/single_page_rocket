@@ -318,7 +318,6 @@ li a {
   margin: auto;
   display: grid;
   grid-template-columns: 5fr 7fr;
-  /* grid-column-gap: 1em; */
 }
 
 .square-container{
@@ -358,6 +357,16 @@ li a {
 .bigNumber{
   font-size: 3em;
 }
+
+/* ************** */
+/* LET'S TALK */
+/* ************** */
+
+
+
+
+
+
 
 
 /* ************** */

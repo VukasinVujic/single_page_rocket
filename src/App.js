@@ -10,6 +10,7 @@ import OurPersonalizedSolutions from './mainPart/ourPersonalizedSolutions';
 import CustomerStories from './mainPart/customerStories';
 import OurPricing from './mainPart/ourPricing';
 import Footer from './layouts/footer';
+import LetsTalk from './mainPart/letsTalk';
 
 class App extends React.Component {
 
@@ -23,6 +24,7 @@ class App extends React.Component {
       <OurPersonalizedSolutions/>
       <CustomerStories/>
       <OurPricing/>
+      <LetsTalk/>
       <Footer/>
       </div>
     )
